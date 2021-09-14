@@ -1,0 +1,229 @@
+*{
+    margin:0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fira Sans Condensed', sans-serif;
+   
+}
+.logo img{
+    height: 70px;
+    margin: 30px 20px;
+    border-radius: 50%;
+    border: 9px solid rgba(85, 217, 250, 0.836);
+}
+.navbar{
+    position: relative;
+    height: 120px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+}
+.navbar ul{
+    display: flex;
+}
+.navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.navbar ul li a{
+    color:white;
+    padding: 30px;
+    display: block;
+    border-radius: 20px;
+    font-weight: 900;
+}
+span{
+    font-size: 25px;
+    /* font-family:cursive; */
+    margin: 0;
+    padding:20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    color:white;
+    background-color:black;
+    background-color: 4px
+
+}
+.navbar ul li a:hover{
+    color:crimson;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+    font-size: 22px;
+    background-color: white;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    height: 401px;
+    justify-content: center;
+}
+#Home::before{
+    content: "";
+    background:url('./Bgs/salad.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:779px;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+
+}
+#Home p{
+    font-size: 1.6rem;
+    color: yellow;
+    font-weight: bolder;
+
+}
+.services-container{
+/* background-color: ; */
+background-color:rgb(253, 171, 77);
+}
+.services-container h1{
+/* background-color: ; */
+background-color: rgb(253, 171, 77);
+color: cornflowerblue;
+}
+#services{
+    margin: 1px;
+    display: flex;
+    height: 450px;
+    /* background-color:; */
+}
+#services .box{
+    border: 3px solid greenyellow;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(218, 216, 216, 0.644);
+}
+#services .box img{
+    height: 221px;
+    width: 354px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+#services .box p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.primary{
+    font-size: 2.2rem;
+    padding: 14px;
+color: cornflowerblue;
+}
+.h-secondry{
+font-size: 1.5rem;
+padding: 10px;
+text-align: center;
+color:blue;
+}
+.btn{
+    padding: 14px;
+    border: 2px solid white;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 25px;
+}
+.btn:hover{
+    padding: 14px;
+    border: 2px solid white;
+    background-color:coral;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 25px;
+    box-shadow: solid black;
+}
+.center{
+    text-align: center;
+}
+#client{
+    height:470px;
+}
+#client::before{
+    content: "";
+    position: absolute;
+    background: url(./Bgs/fruits-1534494_1920.jpg);
+    width: 100%;
+    height: 69%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#clients img{
+    height: 120px;
+    padding: 60px;
+    border-radius: 134px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 30px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:16px ;
+}
+#contact-box::before{
+    content: "";
+    position: absolute;
+    background: url(./Bgs/connect.png);
+    width: 100%;
+    height: 91%;
+    z-index: -1;
+    opacity: 0.2;
+    
+}
+#contact-box input,textarea{
+     width: 100%; 
+    padding: 8px;
+    border-radius:5px;
+    /* margin-top: 10px; */
+}
+.class-group label{
+    margin-top: 20px;
+}
+.Submit{
+    margin: 15px;
+    background: white;
+    width: 40%;
+}
+.Submit:hover{
+    margin: 15px;
+    background: chartreuse;
+}
+.Reset{
+    margin: 15px;
+    background: white;
+    width: 40%;
+}
+.Reset:hover{
+    margin: 15px;
+    background:red;
+}
